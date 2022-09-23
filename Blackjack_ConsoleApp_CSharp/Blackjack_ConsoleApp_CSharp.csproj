@@ -43,11 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\CardFactory.cs" />
+    <Compile Include="Factories\ChipFactory.cs" />
+    <Compile Include="Game Objects\BlackjackCards.cs" />
+    <Compile Include="Game Objects\BlackjackChips.cs" />
+    <Compile Include="Game Objects\BlackjackDeck.cs" />
+    <Compile Include="Game Objects\BlackjackHand.cs" />
+    <Compile Include="Game Objects\BlackjackTable.cs" />
+    <Compile Include="Game Objects\Cards.cs" />
+    <Compile Include="Game Objects\Chips.cs" />
+    <Compile Include="Game Objects\Deck.cs" />
+    <Compile Include="Game Objects\Hand.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Helpers\InputHelpers.cs" />
+    <Compile Include="Player Objects\Dealer.cs" />
+    <Compile Include="Player Objects\Person.cs" />
+    <Compile Include="Player Objects\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
